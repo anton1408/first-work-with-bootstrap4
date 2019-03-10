@@ -1,0 +1,466 @@
+.visually-hidden:not(:focus):not(:active) {
+    position: absolute;
+    bottom: 0;
+
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+
+    white-space: nowrap;
+
+    clip-path: inset(100%);
+}
+.container {
+    width: 715px;
+    padding-right: 8px;
+    padding-left: 0;
+}
+* {
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: #f2f2f2;
+}
+ul {
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
+}
+a:hover {
+    text-decoration: none;
+}
+.col,
+.col-1,
+.col-10,
+.col-11,
+.col-12,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-auto,
+.col-lg,
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-lg-auto,
+.col-md,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-auto,
+.col-sm,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-sm-auto,
+.col-xl,
+.col-xl-1,
+.col-xl-10,
+.col-xl-11,
+.col-xl-12,
+.col-xl-2,
+.col-xl-3,
+.col-xl-4,
+.col-xl-5,
+.col-xl-6,
+.col-xl-7,
+.col-xl-8,
+.col-xl-9,
+.col-xl-auto {
+    padding-right: 0;
+    padding-left: 0;
+}
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+.btn2 {
+    font-size: 10px;
+    font-weight: bold;
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    padding: 3px 7px 3px;
+
+    border-radius: 0;
+}
+/*header*/
+header {
+    margin-bottom: 10px;
+}
+.main-navigation-block {
+    height: 55px;
+}
+.main-logo {
+    height: 55px;
+}
+.main-navigation ul li {
+    margin-left: 20px;
+}
+.main-navigation ul li:first-child {
+    margin-left: 0;
+}
+.main-navigation ul li a {
+    font-size: 9px;
+
+    color: #000;
+}
+.tel-icon img {
+    width: 16px;
+    height: 16px;
+}
+.main-navigation ul li:last-child {
+    position: relative;
+
+    padding-right: 15px;
+}
+.tel-list-btn {
+    position: absolute;
+    top: 5px;
+    left: 77px;
+
+    width: 15px;
+    height: 15px;
+
+    opacity: .3;
+}
+.tel-list-btn:hover {
+    opacity: 1;
+}
+.tel-list-btn:before,
+.tel-list-btn:after {
+    position: absolute;
+
+    width: 2px;
+    height: 7px;
+
+    content: ' ';
+
+    background-color: #333;
+}
+.tel-list-btn:before {
+    top: 5px;
+    left: 8px;
+
+    transform: rotate(45deg);
+}
+.tel-list-btn:after {
+    top: 5px;
+    left: 4px;
+
+    transform: rotate(-45deg);
+}
+
+
+.user-navigation-wrp {
+    width: 100%;
+
+    background-color: #fecb00;
+}
+.user-navigation-block {
+    height: 45px;
+}
+.user-navigation ul li {
+    margin-right: 20px;
+}
+.user-navigation ul li a {
+    font-size: 14px;
+    font-weight: bold;
+
+    color: #000;
+}
+.user-search {
+    position: relative;
+}
+.user-search input {
+    margin-top: -15px;
+    margin-right: 25px;
+
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    background: transparent;
+}
+.user-search:after {
+    position: absolute;
+    top: -5px;
+    right: 0;
+
+    display: block;
+
+    width: 12px;
+    height: 12px;
+
+    content: ' ';
+
+    background-image: url(../img/magnifier_icon.png);
+    background-size: cover;
+}
+/*end header*/
+
+/*main*/
+.content-top {
+    margin-bottom: 20px;
+}
+.content-middle {
+    margin-bottom: 25px;
+}
+.content-bottom {
+    margin-bottom: 30px;
+}
+.lg-block {
+    width: 465px;
+    height: 255px;
+
+    background-image: url(https://i.infocar.ua/i/6/127082/650x.jpg);
+    background-size: cover;
+}
+.news-description-w p {
+    font-size: 15px;
+    font-weight: bold;
+
+    text-align: center;
+
+    color: #fff;
+}
+.news-description-w2 p {
+    font-size: 12px;
+    font-weight: bold;
+
+    text-align: center;
+
+    color: #fff;
+}
+.sm-block4 .news-description-w2 p {
+    color: #000;
+}
+.news-day {
+    font-size: 16px;
+    font-weight: bold;
+
+    color: #fff;
+}
+.news-m-y {
+    font-size: 12px;
+    font-weight: 400;
+
+    color: #fff;
+}
+.sm-block1 {
+    height: 125px;
+    margin-bottom: 2px;
+
+    background-image: url(https://mirpozitiva.ru/uploads/posts/2017-04/medium/1492620921_06.jpg);
+    background-size: cover;
+}
+.sm-block2 {
+    height: 128px;
+
+    background-color: #fecb00;
+}
+.sm-block3 {
+    position: relative;
+
+    width: 222px;
+    height: 127px;
+    margin-bottom: 25px;
+
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/MilfordSound.jpg/600px-MilfordSound.jpg);
+    background-size: cover;
+}
+.sm-block4 {
+    position: relative;
+
+    width: 222px;
+    height: 127px;
+
+    background-color: #fecb00;
+}
+.sm-block5 {
+    position: relative;
+
+    width: 224px;
+    height: 128px;
+    margin-bottom: 25px;
+    margin-left: 6px;
+
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/MilfordSound.jpg/600px-MilfordSound.jpg);
+    background-size: cover;
+}
+.sm-block6 {
+    position: relative;
+
+    width: 224px;
+    height: 128px;
+    margin-left: 6px;
+
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/MilfordSound.jpg/600px-MilfordSound.jpg);
+    background-size: cover;
+}
+.subscribe-form {
+    box-sizing: border-box;
+    width: 220px;
+    height: 280px;
+
+    border: 7px solid #fecb00;
+}
+.sm-block7 {
+    position: relative;
+
+    width: 222px;
+    height: 128px;
+
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/MilfordSound.jpg/600px-MilfordSound.jpg);
+    background-size: cover;
+}
+.sm-block8 {
+    position: relative;
+
+    width: 222px;
+    height: 128px;
+    margin-left: 6px;
+
+    background-color: #a1a1a1;
+    background-size: cover;
+}
+.sm-block9 {
+    position: relative;
+
+    width: 222px;
+    height: 128px;
+    margin-left: 15px;
+
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/MilfordSound.jpg/600px-MilfordSound.jpg);
+    background-size: cover;
+}
+
+/*end main*/
+
+/*footer*/
+
+.footer-copyright {
+    font-size: 11px;
+
+    text-align: right;
+}
+
+/*end footer*/
+
+/*subscribe form*/
+
+.subscribe-form img {
+    margin-bottom: 20px;
+}
+.subscribe-form p {
+    font-size: 14px;
+    line-height: 1.2;
+
+    text-align: center;
+}
+.subscribe-form form {
+    display: block;
+
+    width: 150px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.subscribe-form input {
+    border: 1px solid #323232;
+    outline: none;
+}
+.subscribe-form input::-webkit-input-placeholder {
+    font-size: 12px;
+
+    text-align: center;
+}
+.subscribe-form input:-moz-placeholder {
+    font-size: 12px;
+    /* Firefox 18- */
+
+    text-align: center;
+}
+.subscribe-form input::-moz-placeholder {
+    font-size: 12px;
+    /* Firefox 19+ */
+
+    text-align: center;
+}
+.subscribe-form input:-ms-input-placeholder {
+    font-size: 12px;
+
+    text-align: center;
+}
+.subscribe-form input::-webkit-input-placeholder {transition: text-indent .5s ease;
+    text-indent: 0;
+}
+.subscribe-form input::-moz-placeholder {transition: text-indent .5s ease;
+    text-indent: 0;
+}
+.subscribe-form input:-moz-placeholder {transition: text-indent .5s ease;
+    text-indent: 0;
+}
+.subscribe-form input:-ms-input-placeholder {transition: text-indent .5s ease;
+    text-indent: 0;
+}
+.subscribe-form input:focus::-webkit-input-placeholder {transition: text-indent .5s ease;
+    text-indent: 500px;
+}
+.subscribe-form input:focus::-moz-placeholder {transition: text-indent .5s ease;
+    text-indent: 500px;
+}
+.subscribe-form input:focus:-moz-placeholder {transition: text-indent .5s ease;
+    text-indent: 500px;
+}
+.subscribe-form input:focus:-ms-input-placeholder {transition: text-indent .5s ease;
+    text-indent: 500px;
+}
+.subscribe-form input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.subscribe-form .subscribe-btn {
+    font-weight: bold;
+
+    width: 100%;
+}
+
+/*end subscribe form*/
